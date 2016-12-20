@@ -11,9 +11,9 @@
   "homepage": "https://raulsebastianmihaila.github.io/crizmas-mvc-docs",
   "repository": {
     "type": "git",
-    "url": "https://raulsebastianmihaila.github.io/crizmas-promise-queue"
+    "url": "https://github.com/raulsebastianmihaila/crizmas-promise-queue"
   },
-  "bugs": "https://raulsebastianmihaila.github.io/crizmas-promise-queue/issues",
+  "bugs": "https://github.com/raulsebastianmihaila/crizmas-promise-queue/issues",
   "keywords": [
     "mvc",
     "promise",
