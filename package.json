@@ -1,0 +1,29 @@
+{
+  "name": "crizmas-promise-queue",
+  "version": "0.9.0",
+  "description": "Promise tools used in conjunction with the crizmas-mvc framework.",
+  "private": true,
+  "author": {
+    "name": "Raul-Sebastian Mihăilă",
+    "email": "raul.mihaila@gmail.com"
+  },
+  "main": "./src/promise-queue.js",
+  "homepage": "https://raulsebastianmihaila.github.io/crizmas-mvc-docs",
+  "repository": {
+    "type": "git",
+    "url": "https://raulsebastianmihaila.github.io/crizmas-promise-queue"
+  },
+  "bugs": "https://raulsebastianmihaila.github.io/crizmas-promise-queue/issues",
+  "keywords": [
+    "mvc",
+    "promise",
+    "queue",
+    "react",
+    "crizmas",
+    "reactjs",
+    "christmas",
+    "javascript",
+    "framework",
+    "front-end"
+  ]
+}
