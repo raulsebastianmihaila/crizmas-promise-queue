@@ -76,6 +76,7 @@
   if (isModule) {
     module.exports = moduleExports;
   } else {
-    window.CrizmasPromiseQueue = moduleExports;
+    window.crizmas = window.crizmas || {};
+    window.crizmas.PromiseQueue = moduleExports;
   }
 })();
