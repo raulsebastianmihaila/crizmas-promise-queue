@@ -4,6 +4,10 @@
   const isModule = typeof module === 'object' && typeof module.exports === 'object';
 
   function PromiseQueue({update, done, catch: catchCb} = {}) {
+    if (!new.target) {
+      throw new Error('The function must be called as a constructor.');
+    }
+
     let lastOperationIndex = 0;
     let lastSettledIndex = 0;
     let lifoPromise;
