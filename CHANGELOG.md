@@ -1,3 +1,9 @@
+<a name="0.2.2"></a>
+# [0.2.2](https://github.com/raulsebastianmihaila/crizmas-promise-queue/compare/v0.2.1...v0.2.2) (2017-02-14)
+
+### Updates
+- Allow PromiseQueue to be applied. Removed the new.target check that was crashing the build when using the uglify plugin from webpack.
+
 <a name="0.2.1"></a>
 # [0.2.1](https://github.com/raulsebastianmihaila/crizmas-promise-queue/compare/v0.2.0...v0.2.1) (2017-02-13)
 
