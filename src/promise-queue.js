@@ -19,7 +19,7 @@
 
       awaitedPromises.add(promise);
 
-      promise.then(res => {
+      promise.then((res) => {
         if (!awaitedPromises.has(promise)) {
           return;
         }
@@ -44,7 +44,7 @@
             lastSettledIndex = promiseIndex;
           }
         }
-      }, err => {
+      }, (err) => {
         if (!awaitedPromises.has(promise)) {
           return;
         }
