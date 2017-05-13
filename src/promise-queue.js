@@ -4,8 +4,8 @@
   const isModule = typeof module === 'object' && typeof module.exports === 'object';
 
   function PromiseQueue({update, done, catch: catchCb} = {}) {
-    let lastOperationIndex = 0;
-    let lastSettledIndex = 0;
+    let lastOperationId = 0;
+    let lastSettledId = 0;
     let lifoPromise;
     let lifoResolve;
     let lifoReject;
@@ -13,9 +13,9 @@
     const promiseQueue = {};
 
     promiseQueue.add = (promise) => {
-      lastOperationIndex += 1;
+      lastOperationId += 1;
 
-      const promiseIndex = lastOperationIndex;
+      const promiseId = lastOperationId;
 
       awaitedPromises.add(promise);
 
@@ -24,24 +24,24 @@
           return;
         }
 
-        if (promiseIndex > lastSettledIndex) {
+        if (promiseId > lastSettledId) {
           if (update) {
             update(res);
           }
 
-          if (promiseIndex === lastOperationIndex) {
+          if (promiseId === lastOperationId) {
             lifoResolve(res);
             awaitedPromises.clear();
 
             lifoPromise = null;
-            lastOperationIndex = 0;
-            lastSettledIndex = 0;
+            lastOperationId = 0;
+            lastSettledId = 0;
 
             if (done) {
               done(res);
             }
           } else {
-            lastSettledIndex = promiseIndex;
+            lastSettledId = promiseId;
           }
         }
       }, (err) => {
@@ -53,8 +53,8 @@
         awaitedPromises.clear();
 
         lifoPromise = null;
-        lastOperationIndex = 0;
-        lastSettledIndex = 0;
+        lastOperationId = 0;
+        lastSettledId = 0;
 
         if (catchCb) {
           catchCb(err);

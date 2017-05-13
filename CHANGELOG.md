@@ -1,3 +1,9 @@
+<a name="0.2.4"></a>
+# [0.2.4](https://github.com/raulsebastianmihaila/crizmas-promise-queue/compare/v0.2.3...v0.2.4) (2017-05-14)
+
+### Updates
+- Small refactoring.
+
 <a name="0.2.3"></a>
 # [0.2.3](https://github.com/raulsebastianmihaila/crizmas-promise-queue/compare/v0.2.2...v0.2.3) (2017-04-29)
 
