@@ -1,3 +1,10 @@
+<a name="1.0.1"></a>
+# [1.0.1](https://github.com/raulsebastianmihaila/crizmas-promise-queue/compare/v1.0.0...v1.0.1) (2018-04-21)
+
+### Updates
+- Add tests.
+- Add MIT license to package.json.
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/raulsebastianmihaila/crizmas-promise-queue/compare/v0.2.4...v1.0.0) (2017-07-30)
 

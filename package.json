@@ -2,6 +2,7 @@
   "name": "crizmas-promise-queue",
   "version": "1.0.0",
   "description": "Promise tools used in conjunction with the crizmas-mvc framework.",
+  "license": "MIT",
   "private": true,
   "author": {
     "name": "Raul-Sebastian Mihăilă",
@@ -25,5 +26,12 @@
     "javascript",
     "framework",
     "front-end"
-  ]
+  ],
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
 }
