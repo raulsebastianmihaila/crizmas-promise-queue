@@ -1,6 +1,6 @@
 {
   "name": "crizmas-promise-queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promise tools used in conjunction with the crizmas-mvc framework.",
   "license": "MIT",
   "private": true,
