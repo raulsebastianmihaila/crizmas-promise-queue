@@ -1,3 +1,11 @@
+<a name="1.0.2"></a>
+# [1.0.2](https://github.com/raulsebastianmihaila/crizmas-promise-queue/compare/v1.0.1...v1.0.2) (2018-12-08)
+
+### Updates
+- Enable strict mode in tests.
+- Update the jest dev dependency.
+- Update package-lock for dev dependencies to fix jest vulnerabilities.
+
 <a name="1.0.1"></a>
 # [1.0.1](https://github.com/raulsebastianmihaila/crizmas-promise-queue/compare/v1.0.0...v1.0.1) (2018-04-21)
 

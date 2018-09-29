@@ -1,3 +1,5 @@
+'use strict';
+
 const PromiseQueue = require('../src/promise-queue.js');
 
 describe('promise-queue', () => {
