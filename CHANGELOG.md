@@ -1,3 +1,9 @@
+<a name="1.0.3"></a>
+# [1.0.3](https://github.com/raulsebastianmihaila/crizmas-promise-queue/compare/v1.0.2...v1.0.3) (2021-01-01)
+
+### Discontinued
+- Starting with v2 of crizmas-mvc this package was merged into crizmas-mvc.
+
 <a name="1.0.2"></a>
 # [1.0.2](https://github.com/raulsebastianmihaila/crizmas-promise-queue/compare/v1.0.1...v1.0.2) (2018-12-08)
 
